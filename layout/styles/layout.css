@@ -427,6 +427,19 @@ nav ul, nav ol {
 
 /* Top Navigation */
 
+#burgermenucontainer {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+
+.burgermenu {
+  height: 1px;
+  width: 100%;
+  background: white;
+}
+
 #mainav {}
 
 #mainav ul {
@@ -821,6 +834,22 @@ input:focus, textarea:focus, *:required:focus {
   border-color: #CF9C67;
 }
 
+.bgded:first-child {
+  background-image: url('../../images/demo/backgrounds/01.jpg');
+}
+
+.bgded:nth-child(0n+2) {
+  background-image: url('../../images/demo/backgrounds/02.jpg');
+}
+
+.bgded:nth-child(0n+3) {
+  background-image: url('../../images/demo/backgrounds/03.jpg');
+}
+
+.bgded:last-child {
+  background-image: url('../../images/demo/backgrounds/04.jpg');
+}
+
 .overlay {
   color: #FFFFFF;
   background-color: inherit;
@@ -1108,6 +1137,14 @@ table a, #comments a {
   }
   #header #logo {
     margin-top: 3px;
+  }
+  #burgermenucontainer {
+    display: flex;
+    width: 40px;
+    height: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   #mainav {}
   #mainav ul {
