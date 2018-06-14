@@ -821,6 +821,22 @@ input:focus, textarea:focus, *:required:focus {
   border-color: #CF9C67;
 }
 
+.bgded:first-child {
+  background-image: url('../../images/demo/backgrounds/01.jpg');
+}
+
+.bgded:nth-child(0n+2) {
+  background-image: url('../../images/demo/backgrounds/02.jpg');
+}
+
+.bgded:nth-child(0n+3) {
+  background-image: url('../../images/demo/backgrounds/03.jpg');
+}
+
+.bgded:last-child {
+  background-image: url('../../images/demo/backgrounds/04.jpg');
+}
+
 .overlay {
   color: #FFFFFF;
   background-color: inherit;
